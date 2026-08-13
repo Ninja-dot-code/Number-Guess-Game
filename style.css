@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #212121;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.main-heading{
+    background-color: black;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;    
+}
+.main-box{
+    height: 45vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+    justify-content: space-around;
+    background-color: #414141;
+    
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.subtn{
+    font-size: 22px;
+    padding:  8px 28px ;
+}
+.guessfield{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 8px 18px;
+}
+.parse-result{
+    font-size: 22px;
+    font-weight: bolder;
+}
